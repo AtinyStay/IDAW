@@ -5,14 +5,11 @@
             <h1>Page d'accueil</h1>
             <br/>
             <p>Bienvenue sur le site que j'ai fait dans le cadre de mon TP1 de IDAW <br/> Ceci est le premier site en HTML que je fais.</p>
-            <nav class="menu">
-                <ul>
-                <li><a id="currentpage" href="index.html">Accueil</a></li>
-                <li><a href="cv.html">CV</a></li>
-                <li><a href="hobbies.html">Hobbies</a></li>
-                <li><a href="projets.html">Projets</a></li>
-                </ul>
-                </nav>
+            <?php
+                require_once('template_menu.php');
+                renderMenuToHTML('index');
+            ?>
         </div>
-    </body>
-</html>
+<?php
+    require_once('template_footer.php');
+?>
