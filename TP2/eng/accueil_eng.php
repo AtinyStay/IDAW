@@ -1,6 +1,7 @@
 <div class="box">
 <a class='change_lang' href="index.php?page=accueil&lang=fr">Français</a>
-            <h1>Welcome</h1>
+            <h1>Welcome Page</h1>
             <br/>
-            <p>Welcome to the party <br/> That is the first HTML website, I'm doing.</p>
+            <p>Welcome to my first HTML website. I did it during the IDAW course at IMT Nord Europe in March 2022.</p>
         </div>
+    
