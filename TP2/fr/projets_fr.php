@@ -1,4 +1,4 @@
-
+<a class='change_lang' href="index.php?page=projets&lang=eng">Anglais</a>
     <body>
         <h1>Projets</h1>
         <p>Voici la liste des projets que j'ai réalisés dans le cadre de ma scolarité :</p>

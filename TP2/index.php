@@ -2,19 +2,23 @@
     require_once("template_header.php");
     require_once("template_menu.php");
     $currentPageId = 'accueil';
+    $currentLang = 'fr';
     if(isset($_GET['page'])) {
         $currentPageId = $_GET['page'];
+    }
+    if(isset($_GET['lang'])) {
+        $currentLang = $_GET['lang'];
     }
 ?>
 <header class="bandeau_haut">
     <h1 class="titre">Hugzer Dyn'Astie Barbaross'As Lim</h1>
 </header>
 <?php
-    renderMenuToHTML($currentPageId);
+    renderMenuToHTML($currentPageId,$currentLang);
 ?>
 <section class="corps">
 <?php
-    $pageToInclude = $currentPageId . ".php";
+    $pageToInclude = $currentLang . "/" . $currentPageId . "_" . $currentLang . ".php";
     if(is_readable($pageToInclude))
         require_once($pageToInclude);
     else

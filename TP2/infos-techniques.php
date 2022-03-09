@@ -1,1 +1,0 @@
-<p>Ce sont les fameuses informations techniques wesh</p>

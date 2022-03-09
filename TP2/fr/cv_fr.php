@@ -1,4 +1,4 @@
-
+<a class='change_lang' href="index.php?page=cv&lang=eng">Anglais</a>
         <h1>Hugo Lim, 21 ans</h1>
         <h2>Élève-Ingénieur en M1 à l'IMT Nord Europe</h2>
         <img src="hugo_num.jpg" alt="ma tête sur le cv" class="ma_tete"
