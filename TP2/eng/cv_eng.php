@@ -9,5 +9,6 @@
             July 2017 : Traiteur asiatique</p>
         <h3>Education</h3>
         <p class="parcours">2020-2023 : Engineer degree at IMT Nord Europe<br/> <br/>
-            2018-2020 = Preparatory Class
+            2018-2020 : Preparatory Class
+            2018 : 
         </p>
