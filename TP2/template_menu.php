@@ -3,21 +3,23 @@
         // un tableau qui définit la structure du site
         $mymenu = array(
         // idPage titre
-        'index' => 'Accueil',
+        'accueil' => 'Accueil',
         'cv' => 'CV',
         'projets' => 'Projets',
         'hobbies' => 'Hobbies',
         'infos-techniques' => 'Informations Techniques'
         );
+
+        //reproduire l'html du menu
         echo '<nav class="menu">
             <ul>';
         foreach($mymenu as $pageId => $pageParameters) {
+            //récupération de l'id propre à la page courante
             if($currentPageId == $pageId){
-                echo '<li><a id="currentpage" href=', $pageId,'.php>',$pageParameters,'</a></li>';
+                echo '<li><a id="currentpage" href="index.php?page=',$pageId,'">',$pageParameters,'</a></li>';
             }
             else{
-                $link = $pageId . ".php";
-                echo '<li><a href=' . $link . '>' . $pageParameters . '</a></li>';
+                echo '<li><a href="index.php?page=',$pageId,'">',$pageParameters,'</a></li>';
             }
         }
         echo '</ul>

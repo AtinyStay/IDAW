@@ -1,15 +1,26 @@
-<?php 
-    require_once('template_header.php');
-?>
-        <div class="box">
-            <h1>Page d'accueil</h1>
-            <br/>
-            <p>Bienvenue sur le site que j'ai fait dans le cadre de mon TP1 de IDAW <br/> Ceci est le premier site en HTML que je fais.</p>
-            <?php
-                require_once('template_menu.php');
-                renderMenuToHTML('index');
-            ?>
-        </div>
 <?php
-    require_once('template_footer.php');
+    require_once("template_header.php");
+    require_once("template_menu.php");
+    $currentPageId = 'accueil';
+    if(isset($_GET['page'])) {
+        $currentPageId = $_GET['page'];
+    }
+?>
+<header class="bandeau_haut">
+    <h1 class="titre">Hugzer Dyn'Astie Barbaross'As Lim</h1>
+</header>
+<?php
+    renderMenuToHTML($currentPageId);
+?>
+<section class="corps">
+<?php
+    $pageToInclude = $currentPageId . ".php";
+    if(is_readable($pageToInclude))
+        require_once($pageToInclude);
+    else
+        require_once("error.php");
+?>
+</section>
+<?php
+    require_once("template_footer.php");
 ?>
