@@ -10,9 +10,6 @@
         $currentLang = $_GET['lang'];
     }
 ?>
-<header class="bandeau_haut">
-    <h1 class="titre">Hugzer Dyn'Astie Barbaross'As Lim</h1>
-</header>
 <?php
     renderMenuToHTML($currentPageId,$currentLang);
 ?>

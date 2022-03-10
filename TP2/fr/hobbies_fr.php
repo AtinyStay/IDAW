@@ -1,18 +1,16 @@
 <a class='change_lang' href="index.php?page=hobbies&lang=eng">Anglais</a>
-        <h1>Mes hobbies</h1>
-        <h2>Sports<h2>
-        <nav class='list'>
-            <ul>
-            <li>Basketball (pratique en compétition pendant 2 ans en championnat départemental et championnat universitaire)</li>
-            <li>Tennis de table</li>
-            <li>Musculation</li>
-            </ul>
-            </nav>
-        <p>Voici la liste de mes différents hobbies :</p>
-        <nav>
-            <ul>
-            <li>Animes</li>
-            <li>Basketball</li>
-            <li>Voyage</li>
-            </ul>
-            </nav>
+        <h1 font-size:35px>Mes hobbies
+        </h1>
+        <div class='intitule'>Sports</div>
+        <p class="list">Basketball, pratique en compétition<br/>
+            Tennis de table, loisirs
+        </p>
+        <div class='intitule'>Voyages</div>
+        <p class="list">Japon<br/>
+            Corée du Sud<br/>
+            Hong Kong<br/>
+            Thaïlande<br/>
+            Pays-Bas<br/>
+            Italie<br/>
+            Espagne<br/>
+        </p>

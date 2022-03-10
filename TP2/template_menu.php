@@ -12,7 +12,7 @@
         );
 
         //reproduire l'html du menu
-        echo '<div class="container"><nav class="menu">
+        echo '<nav class="menu">
             <ul>';
         foreach($mymenu as $pageId => $pageParameters) {
             //récupération de l'id propre à la page courante
@@ -30,7 +30,7 @@
             }
         }
         echo '</ul>
-            </nav></div>';
+            </nav>';
     }
 ?>
 

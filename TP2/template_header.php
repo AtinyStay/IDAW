@@ -5,7 +5,11 @@
         <link rel="stylesheet" href="style.css" type="text/css"
         media="screen" title="default" charset="utf-8" />
     </head>
+    <header class="bandeau_haut">
+        <h1 class="titre">Hugo Lim Website</h1>
+    </header>
     <body>
+    
     
 
 
