@@ -1,5 +1,6 @@
 <div class='container'> <div class="box">
     <a class='change_lang' href="index.php?page=contact&lang=fr">Changez votre langue en français</a>
+    <img src="images/fr.png" alt="drapeau français" style="height:30px"/>
             <h1 class="title">Contacts</h1>
             <p>To contact me:<br/>
                 Email: hugo.lim@etu.imt-nord-europe.fr<br/>

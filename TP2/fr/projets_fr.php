@@ -1,5 +1,6 @@
 <a class='change_lang' href="index.php?page=projets&lang=eng">Change your language to English</a>
-        <h1 class="title">Mes Projets
+<img src="images/uk.png" alt="drapeau anglais" style="height:30px"/>        
+<h1 class="title">Mes Projets
         </h1>
         <div class='intitule'>Récupération de recettes à l'aide de la reconnaissance d'aliments</div>
         <p class="list">Réseau de neurones sur une dataset de 30 fruits et légumes<br/>

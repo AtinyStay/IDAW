@@ -1,5 +1,6 @@
 <div class="marger">
 <a class='change_lang' href="index.php?page=cv&lang=fr">Changez votre langue en français</a>
+<img src="images/fr.png" alt="drapeau français" style="height:30px"/>
 <h1 class="title">My Curriculum Vitae
         </h1>
         <h1>Hugo Lim, 21 years old</h1>

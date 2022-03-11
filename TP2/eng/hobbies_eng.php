@@ -1,4 +1,5 @@
 <a class='change_lang' href="index.php?page=hobbies&lang=fr">Changez votre langue en français</a>
+<img src="images/fr.png" alt="drapeau français" style="height:30px"/>
         <h1 class="title">My Hobbies
         </h1>
         <div class='intitule'>Sports</div>

@@ -1,5 +1,7 @@
 <div class="marger">
-<a class='change_lang' href="index.php?page=cv&lang=eng">Change your language to English</a>
+<a class='change_lang' href="index.php?page=cv&lang=eng">Change your language to English
+</a>
+<img src="images/uk.png" alt="drapeau anglais" style="height:30px"/>
 <h1 class="title">Mon CV
         </h1>
         <h1>Hugo Lim, 21 ans</h1>
