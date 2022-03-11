@@ -60,6 +60,14 @@ body{
     color:rgb(34, 66, 124);
 }
 
+#less-padding{
+    padding: 20px 20px 10px;
+    text-align: center;
+    font-size: 70px;
+    font-weight:bold;
+    color:rgb(34, 66, 124);
+}
+
 .project{
     border:2px solid black;
     padding: 20px;

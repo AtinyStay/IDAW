@@ -21,6 +21,7 @@
             Hunter x Hunter<br/>
             Hitman Reborn<br/>
         </p>
+        <img src="images/hxh-wallpaper.jpg" alt="hxh stylé" class="middle-image"/>
         <div class='intitule'>K-POP</div>
         <p class="list">BTS<br/>
             Stray Kids<br/>
