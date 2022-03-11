@@ -1,7 +1,9 @@
-<div class="box">
-<a class='change_lang' href="index.php?page=accueil&lang=fr">Français</a>
-            <h1>Welcome Page</h1>
+<div class='container'> <div class="box">
+    <a class='change_lang' href="index.php?page=accueil&lang=fr">Changez votre langue en français</a>
+            <h1 class="title">Welcome page</h1>
             <br/>
-            <p>Welcome to my first HTML website. I did it during the IDAW course at IMT Nord Europe in March 2022.</p>
+            <p>Welcome to my first website done for my TP1 from the IDAW UV<br/>That is the first HTML website I have ever made</p>
         </div>
+</div>
+<img src="images/yourname.jpg" alt="beautiful wallpaper" class="middle-image"/>
     

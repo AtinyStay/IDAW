@@ -6,10 +6,10 @@
         media="screen" title="default" charset="utf-8" />
     </head>
     <header class="bandeau_haut">
-        <h1 class="titre">Hugo Lim Website</h1>
+        <h1 class="titre">HUGZER IDAW WEBSITE</h1>
     </header>
     <body>
-    
+
     
 
 

@@ -1,7 +1,10 @@
-<a class='change_lang' href="index.php?page=cv&lang=eng">Anglais</a>
+<div class="marger">
+<a class='change_lang' href="index.php?page=cv&lang=eng">Change your language to English</a>
+<h1 class="title">Mon CV
+        </h1>
         <h1>Hugo Lim, 21 ans</h1>
         <h2>Élève-Ingénieur en M1 à l'IMT Nord Europe</h2>
-        <img src="hugo_num_cropped.jpg" alt="ma tête sur le cv" class="ma_tete"/>
+        <img src="images/hugo_num_cropped.jpg" alt="ma tête sur le cv" class="ma_tete"/>
         <div class='intitule'>Parcours professionnel</div>
         <p class="list"> Mai 2021 : Datatilt<br>
             Juillet 2019 : Société Générale <br>
@@ -16,3 +19,4 @@
             Allemand : Niveau A2<br/>
             Chinois Mandarin : Niveau HSK2 
         </p>
+</div>
