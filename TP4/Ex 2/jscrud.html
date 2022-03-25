@@ -72,12 +72,14 @@
     <script>
 
     let students = [{
+        id:1,
         nom: "Lim",
         prenom: "Hugo",
         date: "11/11/2000",
         aime:"oui",
         remarque:"aime les pâtes"
     },{
+        id:2,
         nom: "Lee",
         prenom: "Minho",
         date: "05/10/1998",
@@ -123,8 +125,8 @@
         //Il faut que le nom soit non vide pour que l'on puisse ajouter un étudiant
         let student;
         if(nom != ''){
-            id: students.length + 1,
             student = {
+            id: students.length + 1,
             nom: nom,
             prenom: prenom,
             date: date,
@@ -135,30 +137,24 @@
         students.push(student);
         showStudents();  
 
-        let data = {nom: nom,
+        let data = {
+                id: students.length + 1,
+                nom: nom,
                 prenom: prenom,
                 date: date,
                 aime: aimeString,
                 remarque: remarque,
                 };
+
+        //post des données dans la database
         $.post("http://localhost:8888/IDAW/TP4/Ex%202/addUser.php",data,"json")
 
         .done(function(data){
             console.log("La requête a été un succès");
-            /*
-            //Il faut que le nom soit non vide pour que l'on puisse ajouter un étudiant
-            students.push({
-                nom: data[nom],
-                prenom: data[prenom],
-                date: data[date],
-                aime: data[aime],
-                remarque: data[remarque],
-                });
-            showStudents();
-            */
+            students.push(data);
+            console.log(students);
         })
         
-
         .fail(function(){
             console.log("La requête s'est terminée en échec")
         })
@@ -176,7 +172,7 @@
 
     //edite la ligne sélectionnée 
     function editLigne(index){
-        students.splice(index,1);
+    
     }
 
 </script>
