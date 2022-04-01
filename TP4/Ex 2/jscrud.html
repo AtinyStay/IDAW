@@ -166,8 +166,22 @@
 
     //supprime la ligne d'indice index puis montre la table mise à jour
     function supprimeLigne(index){
-        students.splice(index,1);
-        showStudents();
+        data = {
+            id: index,
+        };
+        $.post("http://localhost:8888/IDAW/TP4/Ex%202/deleteUser.php",data,"json")
+
+        .done(function (data) {
+            console.log("La requête de suppression a été un succès");
+            console.log(data);
+            students.splice(index,1);
+            showStudents();
+        })
+          
+
+        .fail(function () {
+            console.log("La requête de suppression s'est terminée en échec");
+        })
     }
 
     //edite la ligne sélectionnée 

@@ -3,7 +3,7 @@
 
 <head>
     <meta charset='utf-8'>
-    <title>Add User</title>
+    <title>Delete User</title>
 </head>
 
 <?php
@@ -22,7 +22,7 @@
             $id = $_POST['id'];
             
             $sql = "DELETE FROM Utilisateur WHERE `Utilisateur`.`ID` = $id";
-            $conn->exec($sql);
+            $conn->query($sql);
         }
     }
 
